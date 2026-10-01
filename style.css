@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a5acd, #8a5cf6, #ff7eb3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.app {
+    width: 100%;
+    max-width: 430px;
+    text-align: center;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+    background: white;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+
+.card {
+    background: white;
+    border-radius: 28px;
+    padding: 30px 25px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    color: #5b42c7;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+input {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border-color: #7b5cff;
+}
+
+button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #6a5acd, #ff5fa2);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+.active-status {
+    display: inline-block;
+    background: #e7f8ef;
+    color: #149447;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.timer-box {
+    background: #f4f1ff;
+    border-radius: 22px;
+    padding: 20px;
+    margin: 15px 0 20px;
+}
+
+.timer-label {
+    color: #777;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.timer {
+    font-size: 48px;
+    font-weight: bold;
+    color: #6a5acd;
+}
+
+.phone-display {
+    background: #f8f8f8;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    color: #555;
+    font-size: 14px;
+}
+
+.belongings {
+    background: #fff5df;
+    color: #a66a00;
+    padding: 13px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.stay-button {
+    background: linear-gradient(135deg, #ffb347, #ff8c42);
+    margin-bottom: 12px;
+}
+
+.take-button {
+    background: linear-gradient(135deg, #20c997, #00a878);
+}
+
+.footer {
+    color: white;
+    margin-top: 20px;
+    font-size: 12px;
+}
