@@ -47,7 +47,7 @@ function startSession() {
 
         <p>
             🔔 Anda akan menerima peringatan
-            secara berkala untuk mengambil barang.
+            setiap 5 minit.
         </p>
 
         <button
@@ -95,7 +95,9 @@ function startTimer() {
     }, 1000);
 
 
-    // TEST REMINDER: 10 SAAT
+    // ==========================
+    // REMINDER SETIAP 5 MINIT
+    // ==========================
 
     reminderTimer = setInterval(function() {
 
@@ -104,7 +106,7 @@ function startTimer() {
             "Jangan lupa ambil barang anda! 📦"
         );
 
-    }, 30000);
+    }, 300000);
 }
 
 
@@ -117,7 +119,7 @@ function stillSitting() {
     alert(
         "🪑 Baik!\n\n" +
         "Sesi anda masih aktif.\n" +
-        "Reminder akan diteruskan."
+        "Reminder akan diteruskan setiap 5 minit."
     );
 
 }
